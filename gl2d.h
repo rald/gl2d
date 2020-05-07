@@ -3,7 +3,9 @@
 
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 #include <math.h>
+
 #include <GL/glfw.h>
 
 
@@ -98,5 +100,11 @@ GLuint glLoadSprite( const char *filename,
                      const int height,
                      const  GLuint filtermode
                    );
+
+
+
+void glPrint( int x, int y, const char *text, const GLuint color );
+
+
 
 #endif
